@@ -21,13 +21,13 @@
     width: 100%;;
 }
 body {
-    font-family: "Source Sans Pro", Arial, sans-serif;
+    font-family: 'Asap Condensed', sans-serif;
     font-weight: 400;
     font-size: 15px;
     line-height: 1.7;
     color: #828282;
     background-color: '#00af9d';
-    padding-top: 64px;
+    padding-top: 59px;
 }
 .container {
     width: 980px;
@@ -74,7 +74,7 @@ p {
 
 h1, h2, h3, h4, h5, h6, figure {
     color: #000;
-    font-family: "Source Sans Pro", Arial, sans-serif;
+    font-family: 'Asap Condensed', sans-serif;
     font-weight: 400;
     margin: 0 0 20px 0;
 }
@@ -102,8 +102,7 @@ h1, h2, h3, h4, h5, h6, figure {
     width: 100%;
     padding: 0;
     z-index: 1001;
-    background-image:url('../images/bgmenu.png');
-    background-repeat: repeat;
+    background-color: #1264A4;
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
@@ -111,7 +110,7 @@ h1, h2, h3, h4, h5, h6, figure {
     scroll-behavior: smooth;
     position: fixed;
     top: 0px;
-    height: 64px;
+    height: 59px;
 }
 .fh5co-nav-fixed{
     position: fixed;
@@ -174,26 +173,17 @@ h1, h2, h3, h4, h5, h6, figure {
     font-size: 14px;
 }
 .fh5co-nav #fh5co-logo {
-    font-size: 24px;
-    margin: 0;
+    font-size: 22px;
     padding: 0;
     text-transform: uppercase;
-    font-weight: bold;
-    font-weight: 700;
-    font-family: "Source Sans Pro", Arial, sans-serif;
-}
-.fh5co-nav #fh5co-logo a {
-    color: #000;
-    position: relative;
-    padding-left: 25px;
-}
-.fh5co-nav #fh5co-logo a span {
-    color: #000;
-}
-.fh5co-nav #fh5co-logo a i {
-    position: absolute;
-    top: 5px;
-    left: 0;
+    font-weight: 500;
+    font-family: 'Asap Condensed', sans-serif;
+    float: left;
+    color: #fff;
+    height: 59px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 @media screen and (max-width: 768px) {
     .fh5co-nav .menu-1 {
@@ -205,7 +195,6 @@ h1, h2, h3, h4, h5, h6, figure {
     margin: 0px 0 0 0;
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 .fh5co-nav ul li {
     padding: 0;
@@ -214,20 +203,34 @@ h1, h2, h3, h4, h5, h6, figure {
     list-style: none;
 }
 .fh5co-nav ul li a {
-    font-size: 20px;
-    font-family: 'Asap', sans-serif;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
     padding: 12px 20px;
     color: #ffffff;
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
-    background: #00af9d!important;
-    line-height: 40px;
+    line-height: 35px;
     float: left;
     position: relative;
     display: flex;
     justify-content: center;
 }
+.menudownloadebook span{
+    float: left;
+    width: 100%;
+    background-color: #2F9EC8;
+    padding: 0px 10px;
+    font-weight: 500;
+    line-height: 2;
+}
+.brandvallourec{
+    background-color: #ffffff;
+    cursor: default;
+    border: 1px solid #fff;
+}
+
+
 .fh5co-nav ul li a span.border-left {
     float: left;
     position: absolute;
@@ -439,7 +442,7 @@ h1, h2, h3, h4, h5, h6, figure {
     font-size: 20px;
     line-height: 1.5;
     margin-bottom: 30px;
-    font-family: "Source Sans Pro", Arial, sans-serif;
+    font-family: 'Asap Condensed', sans-serif;
 }
 #fh5co-hero .flexslider .slider-text > .slider-text-inner h2 a {
     color: rgba(255, 255, 255, 0.5);
@@ -484,14 +487,32 @@ h1, h2, h3, h4, h5, h6, figure {
     }
 }
 
+.boxblueheader{
+    float: left;
+    width: 100%;
+    height: 180px;
+    background-color: #2F9EC8;
+    padding: 30px;
+}
+.boxblueheader p{
+    text-align: left;
+    font-size: 15.5px;
+    line-height: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+
 .h1-title{
     text-align: left;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
     margin-top: -15px;
     color: #ffffff;
-    font-family: 'Asap', sans-serif;
-    font-size: 44px;
-    line-height: 50px;
+    font-family: 'Asap Condensed', sans-serif;
+    font-size: 35px;
+    line-height: 38px;
+    font-weight: 600;
+    border-bottom: 2px solid #fff;
+    width: 67.5%;
+    padding-bottom: 12px;
 }
 .h2-title{
     text-align: center;
@@ -504,9 +525,8 @@ h1, h2, h3, h4, h5, h6, figure {
     background-position: center top;
     background-repeat: no-repeat;
     position: relative;
-    border-bottom: 0px solid #bfd730;
     min-height: 700px;
-    padding: 49px 0;
+    padding: 0px 0;
     display: flex;
     justify-content: center;
 }
@@ -535,45 +555,70 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .fh5co-section-one-content{
     position: absolute;
-    bottom: 40px;
+    bottom: 0px;
 }
 
 
 /*fh5co-section-two*/
+.arrowblue{
+    position: absolute;
+    top: 0px;
+    left: 15px;
+    width: 0px;
+    height: 0px;
+    border-top: 20px solid #2F9EC8;
+    border-bottom: 20px solid transparent;
+    border-left: 30px solid #2F9EC8;
+    border-right: 30px solid transparent;
+}
 .fh5co-section-two-content{
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: 'Asap', sans-serif;
 }
 .fh5co-section-two{
-    min-height: 494px!important;
-    background: #00af9d;
+    min-height: 400px!important;
+    background: #E5E5E5;
     padding-top: 0px!important;
 }
 .fh5co-section-two h1{
-    text-align: center;
-    font-size: 34px;
-    margin-bottom: 40px;
-    font-weight: bold;
-    margin-top: 15px;
+    text-align: left;
+    font-size: 32px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: #0D61A2;
+    width: 88%;
+    border-bottom: 2px solid #0D61A2;
+    padding-bottom: 10px;
 }
 .fh5co-section-two p{
-    font-size:26px;
-    line-height: 35px;
+    font-size:17px;
+    line-height: 22px;
+    color: #585858!important;
+    margin-bottom: 10px;
+}
+.section-two-col-right{
+    padding-left: 45px;
 }
 
-.btn-about{
-    border:2px solid #ffffff;
-    color: #ffffff;
-    font-family: 'Asap', sans-serif;
-    font-size: 34px!important;
-    font-weight: bold!important;
-    border-radius: 10px!important;
-    min-width: 272px;
-    margin-top: 35px;
+.img-ebook{
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.07);
+    -moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.07);
+    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.07);
 }
-.btn-about:hover, .btn-about:active, .btn-about:focus, .btn-about.active{
+
+.btn-blue{
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px!important;
+    font-weight: 600!important;
+    background-color: #1264A4;
+    border-radius: 0px!important;
+    padding: 3px 17px!important;
+}
+.btn-blue:hover, .btn-blue:active, .btn-blue:focus, .btn-blue.active{
     color: #ffffff;
 }
 .fh5co-section-two-left{
@@ -716,16 +761,17 @@ h1, h2, h3, h4, h5, h6, figure {
 
 
 #fh5co-footer {
-    background: #009f9a;
+    background: #2F9EC8;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     position: relative;
     color: #fff !important;
-    padding: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 0px;
+    height: 128px;
 }
 #fh5co-footer p{
     margin: 0px;
@@ -735,6 +781,16 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-footer .copyright .block {
     display: block;
 }
+#fh5co-footer p{
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+}
+#fh5co-footer .copyright-data{
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+
 /*menu slide*/
 #fh5co-offcanvas {
     position: fixed;
@@ -846,7 +902,8 @@ h1, h2, h3, h4, h5, h6, figure {
     width: 50px;
     height: 50px;
     display: table;
-    background: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 48, 255, 0.4);
+    background: rgba(0, 48, 255, 0.4);
     color: #fff;
     text-align: center;
     -webkit-border-radius: 4px;
@@ -977,7 +1034,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .btn {
     margin-right: 4px;
     margin-bottom: 4px;
-    font-family: "Source Sans Pro", Arial, sans-serif;
+    font-family: 'Asap Condensed', sans-serif;
     font-size: 16px;
     font-weight: 400;
     -webkit-border-radius: 30px;
@@ -1286,7 +1343,7 @@ h1, h2, h3, h4, h5, h6, figure {
     #fh5co-section-one img{
         width: 90%;
     }
-    .btn-about {
+    .btn-blue {
         font-size: 20px!important;
         font-weight: bold!important;
         border-radius: 10px!important;

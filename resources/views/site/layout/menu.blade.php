@@ -3,23 +3,19 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 text-center menu-1">
-                    <ul>
-                        <li><a class="menutop" href="javascript:void(0);" onclick="scrollToDiv('#lk_section_two');" onmouseover="showArrow('#arrowone');">
-                            <span class="border-left"></span>
-                            O SICOOB
-                            <span class="border-right"></span>
-                            <i  id="arrowone"></i>
-                        </a></li>
-                        <li><a class="menutop" href="javascript:void(0);" onclick="scrollToDiv('#lk_section_fuor');" onmouseover="showArrow('#arrowtwo');">
-                            SEJA UM ASSOCIADO                            
-                            <i id="arrowtwo"></i>
-                        </a></li>
-                        <li><a class="menutop" href="javascript:void(0);" onclick="scrollToDiv('#lk_section_five');" onmouseover="showArrow('#arrowthree');">
-                            <span class="border-left"></span>
-                            TABELA
-                            <span class="border-right"></span>
-                            <i  id="arrowthree"></i>
-                        </a></li>
+                    <div id="fh5co-logo">EIXO FERROVIÁRIO TUBULAR</div>
+                    <ul class="pull-right">
+                        <li><a class="menutop" href="javascript:void(0);" onclick="scrollToDiv('#lk_section_two');">Benefícios</a></li>
+                        <li><a class="menutop" href="javascript:void(0);" onclick="scrollToDiv('#lk_section_fuor');">Fale Conosco</a></li>
+                        <li><a class="menutop menudownloadebook" href="javascript:void(0);" onclick="scrollToDiv('#lk_section_five');">
+                            <span>Baixe o e-book</span>
+                            </a>
+                        </li>
+                        <li >
+                            <a class="menutop brandvallourec" href="javascript:void(0);">
+                                <img src="{{asset('site/images/logovallourec.png')}}" alt="Vallourec">
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>

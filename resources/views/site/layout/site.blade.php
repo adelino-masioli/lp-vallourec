@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Sicoob - Campeonato Mineiro 2019</title>
+    <title>Vallourec</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Sicoob" />
     <meta name="keywords" content="Sicoob, Sicoobcard, Sicoob Consórcios" />
@@ -21,11 +21,9 @@
     <meta name="twitter:url" content="" />
     <meta name="twitter:card" content="" />
 
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Asap:400,500,600,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Asap+Condensed:400,500,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    
 
     <!-- Animate.css -->
     <link rel="stylesheet" href="{{asset('site/css/animate.css')}}">
@@ -54,75 +52,9 @@
     <script src="{{asset('site/js/respond.min.js')}}"></script>
     <![endif]-->
 
-    <!-- Global site tag (gtag.js) - Google Ads: 805693732 -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-805693732"></script>    
-    <script>    
-      window.dataLayer = window.dataLayer || [];    
-      function gtag(){dataLayer.push(arguments);}    
-      gtag('js', new Date());    
-      gtag('config', 'AW-805693732');    
-    </script>
-
-
-    <!-- Event snippet for Campeonato Mineiro 2019 conversion page -->
-    <script>
-      gtag('event', 'conversion', {'send_to': 'AW-805693732/DMgSCNe_mJMBEKTSl4AD'});
-    </script>
-
-    <!-- Facebook Pixel Code -->
-
-    <script>
-    
-      !function(f,b,e,v,n,t,s)
-    
-      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-    
-      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-    
-      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-    
-      n.queue=[];t=b.createElement(e);t.async=!0;
-    
-      t.src=v;s=b.getElementsByTagName(e)[0];
-    
-      s.parentNode.insertBefore(t,s)}(window, document,'script',
-    
-      'https://connect.facebook.net/en_US/fbevents.js');
-    
-      fbq('init', '173001496805347');
-    
-      fbq('track', 'PageView');
-    
-    </script>
-    
-    <noscript><img height="1" width="1" style="display:none"
-    
-      src="https://www.facebook.com/tr?id=173001496805347&ev=PageView&noscript=1"
-    
-    /></noscript>
-    
-    <!-- End Facebook Pixel Code -->
-    
-
 </head>
 <body>
-    <!-- Google Code  -->
-    <script type="text/javascript">
-        /* <![CDATA[ */
-        var google_conversion_id = 856107660;
-        var google_conversion_label = "5R5NCIGkpHkQjNWcmAM";
-        var google_remarketing_only = false;
-        /* ]]> */
-
-    </script>
-    <script type="text/javascript" src="https://www.googleadservices.com/pagead/conversion.js">
-    </script>
-    <noscript>
-        <div style="display:inline;">
-            <img height="1" width="1" style="border-style:none;" alt="" src="https://www.googleadservices.com/pagead/conversion/856107660/?label=5R5NCIGkpHkQjNWcmAM&amp;guid=ON&amp;script=0"/>
-        </div>
-    </noscript>
-
+    
     @yield('content')
 
     <div class="gototop js-top">
