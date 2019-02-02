@@ -758,6 +758,42 @@ h1, h2, h3, h4, h5, h6, figure {
     margin-top: 34px;
 }
 
+.fh5co-section-three-content{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fh5co-section-three{
+    min-height: 530px!important;
+}
+.h1-title-three{
+    text-align: left;
+    margin-bottom: 130px;
+    margin-top: -15px;
+    color: #ffffff;
+    font-family: 'Asap Condensed', sans-serif;
+    font-size: 35px;
+    line-height: 38px;
+    font-weight: 600;
+    padding-bottom: 12px;
+}
+.h1-title-three span{
+    border-bottom: 2px solid #fff;
+    padding-bottom: 6px;
+}
+
+/* .box-three {
+    float: left;
+    width: 100%;
+    height: 300px;
+    position: relative;
+    background-size: 100%;
+    background-image: url('../images/linhadetrem.png');
+    background-repeat: no-repeat;
+    position: absolute
+  } */
+
 
 
 #fh5co-footer {

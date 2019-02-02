@@ -304,7 +304,7 @@
 
 function scrollToDiv(div) {
     $('html').animate({
-        scrollTop: $(div).offset().top - 64
+        scrollTop: $(div).offset().top - 59
     }, 500, 'easeInOutExpo');
 
     return false;
@@ -323,3 +323,10 @@ function onlyNumber(input) {
         $(this).val(value);
     });
 }
+
+
+$(".box-three").draggable({
+	axis: "x", 
+	containment: '.onlyhere', 
+	scroll: false
+});

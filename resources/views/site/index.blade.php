@@ -9,6 +9,7 @@
 
     @include("site.partials.section-one")
     @include("site.partials.section-two")
+    @include("site.partials.section-three")
     @include("site.partials.footer")
 
 	</div>

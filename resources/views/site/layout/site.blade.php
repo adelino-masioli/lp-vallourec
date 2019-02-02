@@ -103,6 +103,10 @@
     <script src="{{asset('site/js/magnific-popup-options.js')}}"></script>
     <!-- Count Down -->
     <script src="{{asset('site/js/simplyCountdown.js')}}"></script>
+
+    <!-- JqueryUI -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js"></script>
+
     <!-- Main -->
     <script src="{{asset('site/js/main.js')}}"></script>
 
