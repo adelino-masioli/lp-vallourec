@@ -8,10 +8,15 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>Campeonato Mineiro</title>
+
+    <title>Vallourec</title>
+
+    <link rel="icon" href="{{asset('site/images/favicon.png')}}">
 
     <!-- Styles -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/application.css') }}" rel="stylesheet">
 </head>
 <body>
     <div id="app">
@@ -28,7 +33,7 @@
                     </button>
 
                     <!-- Branding Image -->
-                    <a style="position:relative;top:2px;" href="{{ url('/') }}"><img src="https://loggia.com.br/wp-content/uploads/2016/04/loggia.jpg" class="img-responsive" width="60" alt="Loggia"></a>
+                    <img class="brand" src="{{asset('site/images/logovallourec.png')}}" alt="Vallourec">
                 </div>
 
                 <div class="collapse navbar-collapse" id="app-navbar-collapse">
@@ -44,24 +49,19 @@
                             {{--  <li><a href="{{ route('login') }}">Login</a></li>  --}}
                             {{--  <li><a href="{{ route('register') }}">Register</a></li>  --}}
                         @else
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" aria-haspopup="true">
-                                    {{ Auth::user()->name }} <span class="caret"></span>
+                            <li>
+                                <a href="javascript:void(0);" class="cursor-default">{{ Auth::user()->name }}</a>
+                            </li>
+                            <li>
+                                <a href="{{ route('logout') }}" 
+                                    onclick="event.preventDefault();
+                                            document.getElementById('logout-form').submit();">
+                                    <span class="btn-logout">Sair</span>
                                 </a>
 
-                                <ul class="dropdown-menu">
-                                    <li>
-                                        <a href="{{ route('logout') }}"
-                                            onclick="event.preventDefault();
-                                                     document.getElementById('logout-form').submit();">
-                                            Logout
-                                        </a>
-
-                                        <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
-                                            {{ csrf_field() }}
-                                        </form>
-                                    </li>
-                                </ul>
+                                <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                    {{ csrf_field() }}
+                                </form>
                             </li>
                         @endguest
                     </ul>

@@ -14,7 +14,7 @@
                         <p>
                                 A Vallourec elaborou um e-book com informações completas sobre o projeto técnico e testes de desenvolvimento.
                         </p>
-                        <a href="#" class="btn btn-blue">Baixe grátis</a>
+                        <a href="{{url('baixe-o-e-book')}}" class="btn btn-blue">Baixe grátis</a>
                 </div>        
             </div>
     </div>

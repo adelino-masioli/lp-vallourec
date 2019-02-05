@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Game;
+use App\Download;
 use Illuminate\Support\Str;
 
 class HomeController extends Controller
@@ -25,7 +25,10 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $data = Game::orderBy('id', 'asc')->get();
-        return view('home', compact('data'));
+        
+        $datadownloads = Download::orderBy('id', 'asc')->groupBy('download_url')->get();
+        $datadownload_registers = Download::orderBy('id', 'asc')->groupBy('email')->get();
+
+        return view('home', compact('datadownloads', 'datadownload_registers'));
     }
 }

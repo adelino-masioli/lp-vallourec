@@ -15,8 +15,11 @@
     return view('site.index');
 });*/
 Route::get('/', 'SiteController@index');
-Route::get('next/{id}', 'SiteController@next');
-Route::get('prev/{id}', 'SiteController@prev');
+Route::get('/baixe-o-e-book', 'SiteController@downloadEbook')->name('download-e-book');
+Route::post('/download-e-book-save', 'SiteController@downloadEbookPost')->name('download-e-book-save');
+Route::get('/download-e-book-sucesso/{email}', 'SiteController@downloadEbookSuccess')->name('download-e-book-success');
+Route::get('/download-e-book-pdf', 'SiteController@downloadEbookPdf')->name('download-e-book-pdf');
+Route::get('/baixe-o-e-book-qrcode', 'SiteController@downloadEbook')->name('download-e-book-qrcode');
 
 
 

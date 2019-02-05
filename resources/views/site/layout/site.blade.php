@@ -104,6 +104,8 @@
     <!-- Count Down -->
     <script src="{{asset('site/js/simplyCountdown.js')}}"></script>
 
+    <script src="{{asset('site/js/jquery.validate.min.js')}}"></script>
+
     <!-- JqueryUI -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js"></script>
 

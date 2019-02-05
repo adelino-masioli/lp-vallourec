@@ -7,53 +7,75 @@
             <div class="panel panel-default">
                 <div class="panel-heading">
                     <p style="padding-bottom:8px;">
-                        <a class="btn btn-xs btn-primary pull-left" href="{{url('game-create')}}">Criar nova rodada</a>
-                        <small class="pull-right">Listagem de Rodadas </small>
+                        <small class="pull-right">Contagem de Downloads</small>
                     </p>
                 </div>
 
                 <div class="panel-body">
-                    @if (session('status'))
-                        <div class="alert alert-success">
-                            {{ session('status') }}
-                        </div>
-                    @endif
-
-                   @if(session('messageform'))
-                        <div id="message-send" class="alert alert-<?php echo  \Session::get('messageclass'); ?>"><?php echo  \Session::get('messageform'); ?></div>
-                    @else
-                        <div id="message-send"></div>
-                    @endif
 
                    <table class="table table-condensed table-bordered">
                         <thead>
                             <tr>
-                                <th class="text-center col-md-7">DESCRIÇÃO DA RODADA</th>
-                                <th class="text-center col-md-2">STATUS</th>      
-                                <th class="text-center col-md-1">ORDEM</th>      
-                                <th class="text-center col-md-2">AÇÃO</th>
+                                <th class="text-center col-md-10">ORIGEM DA URL DE DOWNLOADS</th>  
+                                <th class="text-center col-md-2">QUANTIDADE</th>     
                             </tr>
                         </thead>
                         <tbody>
-                        @if ($data->count() > 0)
+                        @if ($datadownloads->count() > 0)
                         
-                            @foreach ($data as $list)                        
+                            @foreach ($datadownloads as $list)                        
                             <tr>
-                                <td>{{$list->title}}</td>            
-                                <td class="text-center">
-                                    @if($list->status == 1)
-                                        Correndo
-                                    @elseif($list->status == 2)
-                                        Aconteceu
-                                    @else
-                                        Vai acontecer
-                                    @endif
-                                </td>
-                                <td>{{$list->order}}</td>
-                                <td class="text-center text-danger">
-                                    <a class="btn btn-xs btn-danger" href="{{url('game-destroy')}}/{{$list->id}}">EXCLUIR</a>
-                                    <a class="btn btn-xs btn-primary" href="{{url('game-show')}}/{{$list->id}}">EDITAR</a>
-                                </td>
+                                <td>{{$list->download_url == 'download-e-book' ? 'Site/Redes Socials/Google' : 'Leitura do QRCode'}}</td>
+                                <td class="text-center">{{$list->sumDownloads($list->download_url)}}</td>
+                            </tr>
+                            @endforeach                        
+                        @else
+                            <tr>
+                                <td colspan="3" class="text-center">Nenhum resultado</td>
+                            </tr>
+                        @endif
+                        </tbody>
+                   </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <p style="padding-bottom:8px;">
+                        <small class="pull-right">Downloads por Cadastros</small>
+                    </p>
+                </div>
+
+                <div class="panel-body">
+
+                   <table class="table table-condensed table-bordered">
+                        <thead>
+                            <tr>
+                                <th class="text-center">NOME COMPLETO</th>  
+                                <th class="text-center">EMPRESA</th> 
+                                <th class="text-center">TELEFONE</th> 
+                                <th class="text-center">EMAIL</th> 
+                                <th class="text-center">DATA</th> 
+                                <th class="text-center">QTD</th> 
+                            </tr>
+                        </thead>
+                        <tbody>
+                        @if ($datadownload_registers->count() > 0)
+                            @foreach ($datadownload_registers as $list)                        
+                            <tr>
+                                <td>{{$list->full_name}}</td>
+                                <td>{{$list->company}}</td>
+                                <td>{{$list->phone}}</td>
+                                <td>{{$list->email}}</td>
+                                <td>{{$list->created_at->format('d/m/Y')}}</td>                                
+                                <td class="text-center">{{$list->sumDownloads($list->download_url)}}</td>
                             </tr>
                             @endforeach                        
                         @else

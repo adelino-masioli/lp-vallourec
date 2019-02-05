@@ -330,3 +330,28 @@ $(".box-three").draggable({
 	containment: '.onlyhere', 
 	scroll: false
 });
+
+
+//form validate
+$("#form-download-ebook").validate({
+	rules: {
+		full_name: "required",
+		company: "required",
+		phone: "required",
+		email: {
+			required: true,
+			email: true
+		}
+	},
+	messages: {
+		full_name: "Favor preencher o nome completo",
+		company: "Favor informar a empresa",
+		phone: "Favor informar o telefone",
+		email: "Favor informar um email válido",
+	}
+});
+
+
+setTimeout(() => {
+	$('.e-book-success').fadeOut();
+}, 3500)

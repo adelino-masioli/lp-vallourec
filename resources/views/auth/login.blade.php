@@ -5,7 +5,7 @@
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
             <div class="panel panel-default">
-                <div class="panel-heading">Campeonato Mineiro Sicoob</div>
+                <div class="panel-heading">INFORME OS DADOS ABAIXO PARA FAZER O LOGIN</div>
 
                 <div class="panel-body">
                     <form class="form-horizontal" method="POST" action="{{ route('login') }}">
