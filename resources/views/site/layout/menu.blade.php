@@ -14,7 +14,7 @@
                         </li>
                         <li>
                             <a class="menutop brandvallourec" href="javascript:void(0);">
-                                <img src="{{asset('site/images/logovallourec.png')}}" alt="Vallourec">
+                                <img  src="{{asset('site/images/logovallourec.png')}}" alt="Vallourec">
                             </a>
                         </li>
                     </ul>
