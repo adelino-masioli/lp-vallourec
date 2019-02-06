@@ -1546,7 +1546,6 @@ label.error{
         background-image: url('../images/linhadetrem.png');
         background-repeat: no-repeat;
         position: absolute;
-        z-index: 99;
     } 
 }
 @media screen and (max-width: 666px) {
