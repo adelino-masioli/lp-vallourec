@@ -54,7 +54,7 @@
 
 </head>
 <body>
-    
+  
     @yield('content')
 
     <div class="gototop js-top">

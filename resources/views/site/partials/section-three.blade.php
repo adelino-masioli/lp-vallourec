@@ -11,9 +11,8 @@
                             </div>
                         </div>  
                     </div>  
-                    <div class="box-three">
-                        <img src="{{asset('site/images/linhadetrem.png')}}" class="img-responsive" alt="Vallourec">
-                    </div>
+                    <img src="{{asset('site/images/linhadetrem.png')}}" class="img-responsive img-vallourec-timeline" alt="Vallourec">
+                    <div class="box-three"></div>
                 </div>
         </div>
     

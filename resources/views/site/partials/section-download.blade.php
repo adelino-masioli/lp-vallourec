@@ -13,7 +13,7 @@
                             <a href="{{route('download-e-book-pdf')}}" class="btn btn-blue">Clique aqui para baixar novamente</a>
                             <br/><br/>
 
-                            <a href="{{url('/')}}">Voltar</a>
+                            <a class="btn-back" href="{{url('/')}}">Voltar</a>
                             
                             @push('scripts')
                                <script>

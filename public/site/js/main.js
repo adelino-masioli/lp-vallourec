@@ -328,7 +328,10 @@ function onlyNumber(input) {
 $(".box-three").draggable({
 	axis: "x", 
 	containment: '.onlyhere', 
-	scroll: false
+	scroll: false,
+	drag: function () {
+        alert('ss');
+    }
 });
 
 

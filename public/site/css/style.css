@@ -32,6 +32,9 @@ body {
 .container {
     width: 980px;
 }
+.container-menu{
+    width: 1065px;
+}
 #page {
     position: relative;
     overflow-x: hidden;
@@ -230,7 +233,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .brandvallourec{
     background-color: #ffffff;
     cursor: default;
-    border: 1px solid #fff;
+    border: 2px solid #fff;
 }
 
 
@@ -608,6 +611,7 @@ h1, h2, h3, h4, h5, h6, figure {
     line-height: 22px;
     color: #585858!important;
     margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
 }
 .section-two-col-right{
     padding-left: 45px;
@@ -779,32 +783,21 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .h1-title-three{
     text-align: left;
-    margin-bottom: 130px;
-    margin-top: -15px;
+    margin-bottom: 0px;
+    margin-top: 0px;
     color: #ffffff;
     font-family: 'Asap Condensed', sans-serif;
     font-size: 35px;
     line-height: 38px;
     font-weight: 600;
     padding-bottom: 12px;
+    position: relative;
+    top: 60px;
 }
 .h1-title-three span{
     border-bottom: 2px solid #fff;
     padding-bottom: 6px;
 }
-
-/* .box-three {
-    float: left;
-    width: 100%;
-    height: 300px;
-    position: relative;
-    background-size: 100%;
-    background-image: url('../images/linhadetrem.png');
-    background-repeat: no-repeat;
-    position: absolute
-  } */
-
-
 
 #fh5co-footer {
     background: #2F9EC8;
@@ -842,12 +835,12 @@ h1, h2, h3, h4, h5, h6, figure {
     position: fixed;
     z-index: 1901;
     width: 270px;
-    background: black;
+    background: rgb(12, 43, 101);
     top: 0;
     right: 0;
     top: 0;
     bottom: 0;
-    padding: 75px 40px 40px 40px;
+    padding: 70px 20px 20px 20px;
     overflow-y: auto;
     display: none;
     -moz-transform: translateX(270px);
@@ -872,14 +865,16 @@ h1, h2, h3, h4, h5, h6, figure {
     transform: translateX(0px);
 }
 #fh5co-offcanvas a {
-    color: rgba(255, 255, 255, 0.5);
+    color: #ffffff;
+    font-size: 14px;
 }
 #fh5co-offcanvas a:hover {
-    color: rgba(255, 255, 255, 0.8);
+    color: #ffffff;
 }
 #fh5co-offcanvas ul {
     padding: 0;
     margin: 0;
+    float: left!important;
 }
 #fh5co-offcanvas ul li {
     padding: 0;
@@ -1013,7 +1008,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .fh5co-nav-toggle.fh5co-nav-white.active > i {
     color: #fff;
-    background: #000;
+    background: #ffffff;
 }
 .fh5co-nav-toggle.fh5co-nav-white.active > i::before, .fh5co-nav-toggle.fh5co-nav-white.active > i::after {
     background: #fff;
@@ -1059,7 +1054,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .fh5co-nav-toggle {
     position: absolute;
-    right: 0px;
+    right: 300px;
     top: 55px;
     z-index: 21;
     padding: 6px 0 0 0;
@@ -1292,119 +1287,7 @@ h1, h2, h3, h4, h5, h6, figure {
     font-size: 10px;
 }
 
-/*responsive*/
-@media screen and (min-width: 2000px) {
-    #fh5co-section-one {
-        min-height: 900px;
-    }
-}
-@media screen and (max-width: 1140px) {
-    .fh5co-section-two p {
-        font-size: 20px;
-        line-height: 30px;
-        width: 90%;
-        margin: auto;
-    }
-    .fh5co-section-two-left, .fh5co-section-two-right, .fh5co-section-five-left, .fh5co-section-five-right {
-        display: none;
-    }
-}
-@media screen and (max-width: 998px) {
-    .container{
-        width: auto;
-    }
-    .fh5co-nav ul li a {
-        font-size: 16px;
-    }
-    #fh5co-hero{
-        height: auto;
-        background: #003C43;
-        padding-bottom: 30px;
-    }
-    .js-fh5co-nav-toggle{
-        top: 10px;
-    }
-    .fh5co-section-six h1 {
-        position: relative;
-        top: 160px;
-    }
-    .img-box-one{
-        margin: auto!important;
-        margin-bottom: 20px!important;
-    }
 
-    .img-box-one img{
-        margin: auto!important;
-    }
-    
-}
-@media screen and (max-width: 768px) {
-    .js-fh5co-nav-toggle{
-        top: 10px;
-    }
-    #fh5co-section-one{
-        border: 0px;
-        padding: 0px!important;
-        height: auto;
-        min-height: 600px;
-        margin-top: 0px;
-        padding-bottom: 30px;
-    }
-    .h1-title{
-        text-align: center;
-    }
-
-    #fh5co-section-one img{
-        margin: auto;
-        margin-bottom: 40px;
-    }
-    .title-second {
-        margin-top: 20px;
-        text-align: left;
-        font-size: 30px;
-        line-height: 40px!important;
-    }
-}
-@media screen and (max-width: 590px) {
-    .icons{
-        display: block;
-    }
-    .icons li{
-        width: 100%;
-    }
-    .p-sectionfuor{
-        font-size: 20px!important;
-    }
-    .btn-search{
-        font-size: 18px!important;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-}
-@media screen and (max-width: 390px) {
-    .h1-title{
-        font-size: 30px;
-        line-height: 40px;
-    }
-    #fh5co-section-one img{
-        width: 90%;
-    }
-    .btn-blue {
-        font-size: 20px!important;
-        font-weight: bold!important;
-        border-radius: 10px!important;
-        width: 90%;
-        margin-top: 20px;
-        margin-bottom: 20px!important;
-    }
-    .title-second {
-        font-size: 30px;
-        line-height: 40px;
-    }
-    .icons li img{
-        width: 50%!important;
-    }
-}
 .form-control,
 .form-control.active, 
 .form-control:active, 
@@ -1449,4 +1332,349 @@ label.error{
 }
 .form-download{
     min-height: 280px!important;
+}
+
+
+.menumobile{
+    display: none;
+}
+.show-mobile{
+    display: none;
+}
+/*responsive*/
+@media screen and (min-width: 2000px) {
+    #fh5co-section-one {
+        min-height: 900px;
+    }
+}
+@media screen and (max-width: 1140px) {
+    .fh5co-section-two p {
+        font-size: 20px;
+        line-height: 30px;
+        width: 90%;
+        margin: auto;
+    }
+    .fh5co-section-two-left, .fh5co-section-two-right, .fh5co-section-five-left, .fh5co-section-five-right {
+        display: none;
+    }
+}
+@media screen and (max-width: 998px) {
+    .container{
+        width: auto;
+    }
+    .fh5co-nav ul li a {
+        font-size: 16px;
+    }
+    #fh5co-hero{
+        height: auto;
+        background: #003C43;
+        padding-bottom: 30px;
+    }
+    .js-fh5co-nav-toggle{
+        top: 10px;
+    }
+    .fh5co-section-six h1 {
+        position: relative;
+        top: 160px;
+    }
+    .img-box-one{
+        margin: auto!important;
+        margin-bottom: 20px!important;
+    }
+
+    .img-box-one img{
+        margin: auto!important;
+    }
+
+    .fh5co-nav-toggle.fh5co-nav-white > i {
+        color: #fff;
+        background: #fff;
+    }
+    .fh5co-nav-toggle.fh5co-nav-white > i::before, .fh5co-nav-toggle.fh5co-nav-white > i::after {
+        background: #fff;
+    }
+
+
+    .section-two-col-right {
+        padding-left: 15px;
+    }
+    .fh5co-section-two h1{
+        margin-top: 30px;
+        width: 45%;
+    }
+    .show-lg{
+        display: none;
+    }
+    .show-mobile{
+        display: block;
+    }
+    .fh5co-section-two p {
+        width: 100%;
+    }
+    .btn-blue{
+        margin-top: 20px;   
+        margin-bottom: 40px;
+     }
+    .img-ebook{
+        margin-top: 70px;
+    }
+    .h1-title-three{
+        padding-left: 15px;
+    }
+    .btn-download-e-book{
+        margin-bottom: 30px;
+    }
+    .btn-back{
+        margin-bottom: 30px;
+        display: block;
+    }
+}
+@media screen and (max-width: 890px) {
+    .fh5co-nav #fh5co-logo{
+        font-size: 18px;
+    }
+    .fh5co-nav ul li a{
+        padding: 12px 8px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .js-fh5co-nav-toggle{
+        top: 10px;
+    }
+    #fh5co-section-one{
+        border: 0px;
+        padding: 0px!important;
+        height: auto;
+        min-height: 600px;
+        margin-top: 0px;
+        padding-bottom: 30px;
+    }
+    .h1-title{
+        text-align: center;
+    }
+
+    #fh5co-section-one img{
+        margin: auto;
+        margin-bottom: 40px;
+    }
+    .title-second {
+        margin-top: 20px;
+        text-align: left;
+        font-size: 30px;
+        line-height: 40px!important;
+    }
+
+    .fh5co-nav #fh5co-logo{
+        font-size: 18px;
+    }
+    .fh5co-nav ul li a{
+        padding: 12px 18px;
+    }
+    .menumobile{
+        display: block;
+    }
+    .fh5co-nav-toggle{
+        right: 370px;
+        top: 8px;
+    }
+    /* .fh5co-nav-toggle:hover i::before{
+        top: -8px;
+    }
+    .fh5co-nav-toggle:hover i::after {
+        bottom: 8px;
+    } */
+
+    .fh5co-section-three {
+        min-height: 400px!important;
+    }
+    .h1-title-three{
+        top: 30px;
+    }
+    .fh5co-section-two h1 {
+        margin-top: 00px;
+        width: 45%;
+    }
+    .img-ebook{
+        margin-top: 70px!important;
+    }
+    #fh5co-section-one{
+        background-position: -350px top;
+    }
+    .fh5co-section-three {
+        background-position: center top!important;
+    }
+    .container {
+        width: auto;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .arrowblue{
+        left: 50px;
+    }
+    .img-vallourec-timeline{
+        display: none;
+    }
+
+    .fh5co-section-three-content {
+        display: block;
+        text-align: left;
+        width: 100%;
+    }
+
+    .box-three {
+        float: left;
+        width: 1200px;
+        height: 300px;
+        position: relative;
+        background-size: 100%;
+        background-image: url('../images/linhadetrem.png');
+        background-repeat: no-repeat;
+        position: absolute;
+      } 
+}
+@media screen and (max-width: 666px) {
+    .menumobile{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .menumobileul{
+        width: 100%;
+        margin: 0px!important;
+        padding: 0px!important;
+        position: relative;
+        top: -1px;
+    }
+    .menumobileul  li {
+        width: 50%!important;
+    }
+    
+    .menumobileul  li a {
+        padding: 12px 0px;
+        width: 100%;
+    }
+    .menumobileul  li a.menudownloadebook{
+        padding: 0px;
+        background-color: #2F9EC8;
+        padding: 14px 0px;
+    }
+    .menumobileul  li a span{
+        margin: 0px;
+        width: 100%;
+    }
+
+    .fh5co-nav #fh5co-logo {
+        margin-left: 0px;
+        font-size: 20px;
+    }
+    .fh5co-nav-toggle {
+        right: 30px;
+        top: 8px;
+    }
+    .h1-title-three{
+        margin-bottom: 30px;
+    }
+}
+@media screen and (max-width: 590px) {
+    .icons{
+        display: block;
+    }
+    .icons li{
+        width: 100%;
+    }
+    .p-sectionfuor{
+        font-size: 20px!important;
+    }
+    .btn-search{
+        font-size: 18px!important;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .boxblueheader{
+        height: auto;
+        min-height: 180px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .fh5co-section-one-content{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .arrowblue{
+        left: 0px;
+    }
+    .fh5co-section-one-content h1{
+        margin-left: 50px;
+        text-align: left;
+    }
+
+    .h1-title-three span {
+        border-bottom: 0px solid #fff;
+        padding-bottom: 6px;
+    }
+    .h1-title-three{
+        border-bottom: 2px solid #fff;
+        padding-left: 0px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    #fh5co-section-one {
+        min-height: 800px;
+        background-position: -380px -100px;    
+    }
+}
+@media screen and (max-width: 390px) {
+    .h1-title{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    #fh5co-section-one img{
+        width: 90%;
+    }
+    .btn-blue {
+        font-size: 20px!important;
+        font-weight: bold!important;
+        border-radius: 0px!important;
+        width: 90%;
+        margin-top: 20px;
+        margin-bottom: 20px!important;
+    }
+    .title-second {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .icons li img{
+        width: 50%!important;
+    }
+    .section-two-col-right {
+        padding-left: 30px;
+        padding-right: 20px;
+    }
+    .fh5co-section-two p {
+        font-size: 17px;
+    }
+    #fh5co-footer{
+        min-height: 100px;
+        padding: 120px 15px;
+    }
+    #fh5co-footer .copyright-data {
+        font-size: 20px;
+        line-height: 25px;
+        margin-bottom: 20px;
+        font-weight: 700!important;
+    }
+    .fh5co-section-two h1 {
+        margin-top: 00px;
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .fh5co-section-three {
+        min-height: 300px!important;
+        background-position: center top;
+    }
+    .h1-title-three{
+        margin-bottom: 30px;
+    }
 }
