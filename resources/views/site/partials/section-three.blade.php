@@ -12,7 +12,7 @@
                         </div>  
                     </div>  
                     <img src="{{asset('site/images/linhadetrem.png')}}" class="img-responsive img-vallourec-timeline" alt="Vallourec">
-                    <div class="box-three"></div>
+                    <img src="{{asset('site/images/linhadetrem.png')}}" class="img-vallourec-timeline-mobile" alt="Vallourec">
                 </div>
         </div>
     

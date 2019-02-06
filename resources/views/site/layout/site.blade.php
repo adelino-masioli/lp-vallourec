@@ -107,7 +107,8 @@
     <script src="{{asset('site/js/jquery.validate.min.js')}}"></script>
 
     <!-- JqueryUI -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/utils/Draggable.min.js"></script>
 
     <!-- Main -->
     <script src="{{asset('site/js/main.js')}}"></script>

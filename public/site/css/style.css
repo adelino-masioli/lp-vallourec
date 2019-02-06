@@ -1341,6 +1341,9 @@ label.error{
 .show-mobile{
     display: none;
 }
+.img-vallourec-timeline-mobile{
+    display: none;
+}
 /*responsive*/
 @media screen and (min-width: 2000px) {
     #fh5co-section-one {
@@ -1420,6 +1423,7 @@ label.error{
     }
     .h1-title-three{
         padding-left: 15px;
+        top: 30px;
     }
     .btn-download-e-book{
         margin-bottom: 30px;
@@ -1427,6 +1431,10 @@ label.error{
     .btn-back{
         margin-bottom: 30px;
         display: block;
+    }
+
+    .fh5co-section-three{
+        min-height: 430px!important;
     }
 }
 @media screen and (max-width: 890px) {
@@ -1517,22 +1525,29 @@ label.error{
         display: none;
     }
 
+    .img-vallourec-timeline-mobile{
+        display: block;
+        width: 1500px!important;
+    }
+
     .fh5co-section-three-content {
         display: block;
         text-align: left;
         width: 100%;
     }
+    
 
     .box-three {
         float: left;
         width: 1200px;
+        overflow: hidden;
         height: 300px;
-        position: relative;
         background-size: 100%;
         background-image: url('../images/linhadetrem.png');
         background-repeat: no-repeat;
         position: absolute;
-      } 
+        z-index: 99;
+    } 
 }
 @media screen and (max-width: 666px) {
     .menumobile{

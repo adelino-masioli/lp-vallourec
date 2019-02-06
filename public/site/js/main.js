@@ -324,16 +324,34 @@ function onlyNumber(input) {
     });
 }
 
-
-$(".box-three").draggable({
+/*
+$(".img-vallourec-timeline-mobile").draggable({
 	axis: "x", 
-	containment: '.onlyhere', 
-	scroll: false,
-	drag: function () {
-        alert('ss');
-    }
-});
+	//containment: ".onlyhere",
+	scroll: false
+});*/
 
+Draggable.create(".img-vallourec-timeline-mobile", {
+	type: "x",
+	/*onPress: function() {
+	  
+	  var rect = this.target.getBoundingClientRect();
+	  
+	  this.applyBounds({
+		top: rect.top,
+		left: rect.left,
+		width: 2000 + rect.width,
+		height: rect.height
+	  });
+	}*/
+
+	onDrag: function(e){
+		this.applyBounds({minX: 0, minY: 0, maxX: -700, maxY: 0});
+	  },
+  })
+
+
+  
 
 //form validate
 $("#form-download-ebook").validate({
