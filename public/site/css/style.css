@@ -33,7 +33,7 @@ body {
     width: 980px;
 }
 .container-menu{
-    width: 1065px;
+    width: 90%!important;
 }
 #page {
     position: relative;
@@ -934,6 +934,7 @@ h1, h2, h3, h4, h5, h6, figure {
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
+    display: none;
 }
 .gototop.active {
     opacity: 1;
@@ -1436,13 +1437,24 @@ label.error{
     .fh5co-section-three{
         min-height: 430px!important;
     }
-}
-@media screen and (max-width: 890px) {
     .fh5co-nav #fh5co-logo{
         font-size: 18px;
     }
     .fh5co-nav ul li a{
         padding: 12px 8px;
+    }
+
+    .container-menu{
+        width:auto!important;
+    }
+}
+@media screen and (max-width: 809px) {
+    .fh5co-nav #fh5co-logo{
+        font-size: 18px;
+    }
+    .fh5co-nav ul li a{
+        padding: 12px 6px;
+        font-size: 14px;
     }
 }
 
@@ -1527,13 +1539,41 @@ label.error{
 
     .img-vallourec-timeline-mobile{
         display: block;
-        width: 1500px!important;
     }
 
     .fh5co-section-three-content {
         display: block;
         text-align: left;
         width: 100%;
+    }
+    .cycle-slideshow{
+        display: block;
+    }
+    .cycle-slideshow img{
+        width: 100%!important;
+    }
+
+    #prev, #next{
+        position: absolute;
+        top: 330px;
+        color: #fff;
+        z-index: 999;
+    }
+    #prev{
+        left: 15px;
+        width: 0px;
+        height: 0px;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        border-right: 10px solid #fff;
+    }
+    #next{
+        right:15px;
+        width: 0px;
+        height: 0px;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        border-left: 10px solid #fff;
     }
     
 
@@ -1633,15 +1673,26 @@ label.error{
         margin-left: 15px;
         margin-right: 15px;
     }
-    #fh5co-section-one {
+    /*#fh5co-section-one {
         min-height: 800px;
         background-position: -380px -100px;    
+    }*/
+
+    .fh5co-section-one-banner{
+        min-height: 580px!important;
+        background-size: 910px!important;
+        background-position: center top!important;
     }
 }
 @media screen and (max-width: 390px) {
     .h1-title{
         font-size: 30px;
         line-height: 40px;
+    }
+    .fh5co-section-one-banner{
+        min-height: 628px!important;
+        background-size: 800px!important;
+        background-position: center top!important;
     }
     #fh5co-section-one img{
         width: 90%;
@@ -1650,9 +1701,9 @@ label.error{
         font-size: 20px!important;
         font-weight: bold!important;
         border-radius: 0px!important;
-        width: 90%;
+        width: 97%;
         margin-top: 20px;
-        margin-bottom: 20px!important;
+        margin-bottom: 40px!important;
     }
     .title-second {
         font-size: 30px;
@@ -1666,7 +1717,7 @@ label.error{
         padding-right: 20px;
     }
     .fh5co-section-two p {
-        font-size: 17px;
+        font-size: 14px;
     }
     #fh5co-footer{
         min-height: 100px;

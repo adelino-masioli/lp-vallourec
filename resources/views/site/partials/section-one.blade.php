@@ -1,5 +1,5 @@
 <div id="lk_section_one"></div>
-<div class="form-show-1" id="fh5co-section-one" style="background-image: url({{asset('site/images/imgone.jpg')}});">
+<div class="form-show-1 fh5co-section-one-banner" id="fh5co-section-one" style="background-image: url({{asset('site/images/imgone.jpg')}});">
     <div class="container fh5co-section-one-content">
 			<div class="row">
 				<div class="col-xs-12 col-md-6 text-center fh5co-heading">

@@ -12,7 +12,28 @@
                         </div>  
                     </div>  
                     <img src="{{asset('site/images/linhadetrem.png')}}" class="img-responsive img-vallourec-timeline" alt="Vallourec">
-                    <img src="{{asset('site/images/linhadetrem.png')}}" class="img-vallourec-timeline-mobile" alt="Vallourec">
+
+                    <div class="img-vallourec-timeline-mobile">
+                        <div class=center>
+                            <span id=prev></span>
+                            <span id=next></span>
+                        </div>
+                        <div class="cycle-slideshow" 
+                        data-cycle-fx=scrollHorz
+                        data-cycle-timeout=0
+                        data-cycle-prev="#prev"
+                        data-cycle-next="#next"
+                        data-allow-wrap=false
+                        >
+                            <img src="{{asset('site/images/linhadetrem_1.png')}}" alt="Vallourec">
+                            <img src="{{asset('site/images/linhadetrem_2.png')}}" alt="Vallourec">
+                            <img src="{{asset('site/images/linhadetrem_3.png')}}" alt="Vallourec">
+                            <img src="{{asset('site/images/linhadetrem_4.png')}}" alt="Vallourec">
+                            <img src="{{asset('site/images/linhadetrem_5.png')}}" alt="Vallourec">
+                            
+                        </div>
+                    </div>
+                    {{-- <img src="{{asset('site/images/linhadetrem.png')}}" class="img-vallourec-timeline-mobile" alt="Vallourec"> --}}
                 </div>
         </div>
     
