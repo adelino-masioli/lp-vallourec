@@ -6,7 +6,6 @@
                     <div id="fh5co-logo">
                         <a href="{{url('/')}}" title="Vallourec">EIXO FERROVIÁRIO TUBULAR</a>
                     </div>
-
                     <ul class="pull-right menumobileul">
                         <li><a class="menutop menudownloadebook" href="javascript:void(0);" onclick="scrollToDiv('#lk_section_two');">
                             <span>Baixe o e-book</span>
