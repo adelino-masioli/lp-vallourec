@@ -328,3 +328,14 @@ $("#form-download-ebook").validate({
 setTimeout(() => {
   $(".e-book-success").fadeOut();
 }, 3500);
+
+$(".cycle-slideshow").owlCarousel({
+  margin: 0,
+  loop: false,
+  autoWidth: false,
+  items: 1,
+  dots: false,
+  responsiveClass: true,
+  pullDrag: true,
+  nav: true
+});

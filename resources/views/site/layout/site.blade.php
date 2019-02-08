@@ -107,8 +107,10 @@
     <script src="{{asset('site/js/jquery.validate.min.js')}}"></script>
 
     <!-- cycle2 -->
-    <script src="http://malsup.github.io/jquery.cycle2.js"></script>
-    <script src="http://malsup.github.io/jquery.cycle2.swipe.js"></script>
+    {{-- <script src="http://malsup.github.io/jquery.cycle2.js"></script>
+    <script src="http://malsup.github.io/jquery.cycle2.swipe.js"></script> --}}
+    <script src="{{asset('site/js/owl.carousel.min.js')}}"></script>
+
 
     <!-- Main -->
     <script src="{{asset('site/js/main.js')}}"></script>

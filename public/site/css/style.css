@@ -1535,6 +1535,10 @@ label.error {
   }
 }
 
+.showsmartphone {
+  display: none;
+}
+
 @media screen and (max-width: 768px) {
   .js-fh5co-nav-toggle {
     top: 10px;
@@ -1626,18 +1630,22 @@ label.error {
     display: block;
   }
   .cycle-slideshow img {
-    width: 100% !important;
+    width: 1700px !important;
   }
 
-  #prev,
-  #next {
+  .owl-prev,
+  .owl-next {
     position: absolute;
     top: 330px;
     color: #fff;
     z-index: 999;
     opacity: 0.5;
+    background: transparent !important;
+    content: none !important;
+    padding: 0px !important;
+    color: transparent !important;
   }
-  #prev {
+  .owl-prev {
     left: 15px;
     width: 0px;
     height: 0px;
@@ -1645,7 +1653,7 @@ label.error {
     border-bottom: 10px solid transparent;
     border-right: 10px solid #fff;
   }
-  #next {
+  .owl-next {
     right: 15px;
     width: 0px;
     height: 0px;
@@ -1709,6 +1717,10 @@ label.error {
     margin-bottom: 30px;
   }
 }
+
+.owl-carousel {
+  touch-action: none;
+}
 @media screen and (max-width: 590px) {
   .icons {
     display: block;
@@ -1760,10 +1772,22 @@ label.error {
   .menu-beneficios {
     display: none !important;
   }
+  .showtablet {
+    display: none;
+  }
+  .showsmartphone {
+    display: block;
+  }
+  .cycle-slideshow img {
+    width: 1800px !important;
+  }
 }
 @media screen and (max-width: 480px) {
   .fh5co-nav #fh5co-logo {
     font-size: 20px;
+  }
+  .cycle-slideshow img {
+    width: 1500px !important;
   }
 }
 @media screen and (max-width: 400px) {
@@ -1852,6 +1876,10 @@ label.error {
   .menu-beneficios li a {
     margin-right: 30px;
   }
+
+  .cycle-slideshow img {
+    width: 1300px !important;
+  }
 }
 
 @media screen and (max-width: 360px) {
@@ -1880,5 +1908,20 @@ label.error {
   .h1-title-three {
     width: 80%;
     margin-left: 30px;
+  }
+
+  .cycle-slideshow img {
+    width: 1150px !important;
+  }
+
+  .owl-prev,
+  .owl-next {
+    top: 260px;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .cycle-slideshow img {
+    width: 1050px !important;
   }
 }
