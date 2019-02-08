@@ -1911,7 +1911,7 @@ label.error {
   }
 
   .cycle-slideshow img {
-    width: 1150px !important;
+    width: 1155px !important;
   }
 
   .owl-prev,
@@ -1922,6 +1922,18 @@ label.error {
 
 @media screen and (max-width: 340px) {
   .cycle-slideshow img {
-    width: 1050px !important;
+    width: 1090px !important;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .cycle-slideshow img {
+    width: 1060px !important;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .cycle-slideshow img {
+    width: 1000px !important;
   }
 }
