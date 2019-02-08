@@ -106,8 +106,9 @@
 
     <script src="{{asset('site/js/jquery.validate.min.js')}}"></script>
 
-    <!-- JqueryUI -->
+    <!-- cycle2 -->
     <script src="http://malsup.github.io/jquery.cycle2.js"></script>
+    <script src="http://malsup.github.io/jquery.cycle2.swipe.js"></script>
 
     <!-- Main -->
     <script src="{{asset('site/js/main.js')}}"></script>

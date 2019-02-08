@@ -2,7 +2,7 @@
     <div class="top-menu">
         <div class="container container-menu">
             <div class="row">
-                <div class="col-xs-12 text-center menumobile">
+                <div class="col-xs-12 text-center col-menu-lg">
                     <div id="fh5co-logo">
                         <a href="{{url('/')}}" title="Vallourec">EIXO FERROVIÁRIO TUBULAR</a>
                     </div>
@@ -18,15 +18,18 @@
                             </a>
                         </li>
                     </ul>
+
+                    <ul class="pull-right menu-beneficios">
+                            <li><a class="menutop" href="javascript:void(0);" onclick="scrollToDiv('#lk_section_three');">Benefícios</a></li>
+                     </ul>
                 </div>
 
-                <div class="col-xs-12 text-center menu-1">
+                {{-- <div class="col-xs-12 text-center menu-1 menumobile">
                     <div id="fh5co-logo">
                         <a href="{{url('/')}}" title="Vallourec">EIXO FERROVIÁRIO TUBULAR</a>
                     </div>
                     <ul class="pull-right">
                         <li><a class="menutop" href="javascript:void(0);" onclick="scrollToDiv('#lk_section_three');">Benefícios</a></li>
-                        <li><a class="menutop" href="javascript:void(0);" onclick="scrollToDiv('#fh5co-footer');">Fale Conosco</a></li>
                         <li class="hidden-xs"><a class="menutop menudownloadebook" href="javascript:void(0);" onclick="scrollToDiv('#lk_section_two');">
                             <span>Baixe o e-book</span>
                             </a>
@@ -37,7 +40,7 @@
                             </a>
                         </li>
                     </ul>
-                </div>
+                </div> --}}
             </div>
         </div>
     </div>

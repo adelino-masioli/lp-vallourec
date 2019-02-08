@@ -19,6 +19,7 @@
                             <span id=next></span>
                         </div>
                         <div class="cycle-slideshow" 
+                        data-cycle-swipe=true
                         data-cycle-fx=scrollHorz
                         data-cycle-timeout=0
                         data-cycle-prev="#prev"

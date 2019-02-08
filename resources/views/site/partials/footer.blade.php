@@ -7,7 +7,8 @@
                 <div class="col-md-7 text-center">
                         <p>
                                 Av. Olinto Meireles, Nº 65 - Barreiro de Baixo | CEP: 30.640-010 - Belo Horizonte/MG - Brasil 
-                                Telefone: +55 (31) 3328-2121 | E-mail: contato@vallourec.com
+                                Telefone: <a href="tel:553133282817">+55 (31) 3328-2817</a> | 
+                                E-mail: <a href="mailto:contato@vallourec.com" target="_blank">contato@vallourec.com</a>
                         </p>
                 </div>
         </div>
