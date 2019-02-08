@@ -33,7 +33,7 @@
                     </button>
 
                     <!-- Branding Image -->
-                    <img class="brand" src="{{asset('site/images/logovallourec.png')}}" alt="Vallourec">
+                    <img class="brand" src="{{asset('site/images/logovallourec.png')}}" width="138" alt="Vallourec">
                 </div>
 
                 <div class="collapse navbar-collapse" id="app-navbar-collapse">

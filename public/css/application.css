@@ -1,47 +1,47 @@
-body{
-    font-family: 'Roboto', sans-serif!important;
+body {
+  font-family: "Roboto", sans-serif !important;
 }
 .navbar-default {
-    background-color: #1264A4;
-    border-color: #ffffff;
+  background-color: #1264a4;
+  border-color: #ffffff;
 }
-.navbar-default ul li a{
-    color: #fff!important;
+.navbar-default ul li a {
+  color: #fff !important;
 }
-.brand{
-    background: #fff;
-    border:1px solid #ffffff;
-    padding: 10px;
+.brand {
+  background: #fff;
+  border: 1px solid #ffffff;
+  padding: 12px;
 }
 .container {
-    width: 980px;
+  width: 980px;
 }
 .panel {
-    border-radius: 0px;
+  border-radius: 0px;
 }
-.form-control{
-    border-radius: 0px;
+.form-control {
+  border-radius: 0px;
 }
-.btn{
-    border-radius: 0px;
+.btn {
+  border-radius: 0px;
 }
 .btn-primary,
 .btn-primary:focus,
 .btn-primary.focus,
 .btn-primary:hover,
 .btn-primary.active,
-.btn-primary:active{
-    background-color: #1264A4;
-    border-color: #1264A4;
+.btn-primary:active {
+  background-color: #1264a4;
+  border-color: #1264a4;
 }
-.cursor-default{
-    cursor: default;
+.cursor-default {
+  cursor: default;
 }
-.btn-logout{
-    float: left;
-    width: 100%;
-    background-color: #2F9EC8;
-    padding: 0px 10px;
-    font-weight: 500;
-    line-height: 2;
+.btn-logout {
+  float: left;
+  width: 100%;
+  background-color: #2f9ec8;
+  padding: 0px 10px;
+  font-weight: 500;
+  line-height: 2;
 }
