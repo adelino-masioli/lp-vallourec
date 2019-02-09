@@ -18,9 +18,9 @@
                         </li>
                     </ul>
 
-                    <ul class="pull-right menu-beneficios">
+                    {{-- <ul class="pull-right menu-beneficios hidden">
                             <li><a class="menutop" href="javascript:void(0);" onclick="scrollToDiv('#lk_section_three');">Benefícios</a></li>
-                     </ul>
+                    </ul> --}}
                 </div>
 
                 {{-- <div class="col-xs-12 text-center menu-1 menumobile">
