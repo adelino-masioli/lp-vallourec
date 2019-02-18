@@ -2118,6 +2118,10 @@ label.error {
   .cycle-slideshow img {
     width: 1300px !important;
   }
+
+  #fh5co-footer p{
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width: 360px) {

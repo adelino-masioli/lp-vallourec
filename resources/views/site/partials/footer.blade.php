@@ -6,7 +6,7 @@
                 </div>
                 <div class="col-md-7 text-center">
                         <p>
-                                Av. Olinto Meireles, 65 - Barreiro de Baixo | CEP: 30.640-010 - Belo Horizonte/MG - Brasil 
+                                Av. Olinto Meireles, 65 - Barreiro de Baixo | CEP: 30640-010 - Belo Horizonte/MG - Brasil 
                                 Telefone: <a href="tel:553133282817">+55 (31) 3328-2817</a> | 
                                 E-mail: <a href="mailto:eixoferroviariotubular@vallourec.com" target="_blank">eixoferroviariotubular@vallourec.com</a>
                         </p>
