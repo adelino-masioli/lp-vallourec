@@ -31,6 +31,11 @@ class SiteController extends Controller
         return view('site.download');
     }
 
+    public function emarketing()
+    {
+        return view('site.html.html');
+    }
+
     public function downloadEbookSuccess()
     {
         return view('site.download-success');

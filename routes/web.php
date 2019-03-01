@@ -20,6 +20,7 @@ Route::post('/download-e-book-save', 'SiteController@downloadEbookPost')->name('
 Route::get('/download-e-book-sucesso/{email}', 'SiteController@downloadEbookSuccess')->name('download-e-book-success');
 Route::get('/download-e-book-pdf', 'SiteController@downloadEbookPdf')->name('download-e-book-pdf');
 Route::get('/baixe-o-e-book-qrcode', 'SiteController@downloadEbook')->name('download-e-book-qrcode');
+Route::get('/eixo-ferroviario-vallourec', 'SiteController@emarketing')->name('eixo-ferroviario-vallourec');
 
 
 
