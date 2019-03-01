@@ -7,25 +7,7 @@
                 </div>
                 <div class="col-xs-12 col-md-6 section-two-col-right">
                     
-                        @if(\Request::route()->getName() == 'download-e-book-success')
-                            <h1 class="download">E-book baixado com sucesso.</h1>
-                            
-                            <a href="{{route('download-e-book-pdf')}}" class="btn btn-blue">Clique aqui para baixar novamente</a>
-                            <br/><br/>
-
-                            <a class="btn-back" href="{{url('/')}}">Voltar</a>
-                            
-                            @push('scripts')
-                               <script>
-                                   $(document).ready(function(){
-                                       setTimeout(function(){
-                                            window.location = "{{route('download-e-book-pdf')}}";
-                                       }, 1000);
-                                   });
-                               </script>
-                            @endpush
-                        @else
-                            <h1 class="download">Antes de baixar, um simples cadastro.</h1>
+                        <h1 class="download">Antes de baixar, um simples cadastro.</h1>
 
                             <form id="form-download-ebook" method="POST" action="{{route('download-e-book-save')}}">
                                 {{ csrf_field() }}
@@ -45,10 +27,18 @@
                                     <input type="email" class="form-control" name="email" placeholder="E-mail:" required>
                                 </div>
 
-                                <button type="submit" class="btn btn-download-e-book">Baixar agora</button>
+                                <button type="submit" class="btn btn-download-e-book" onclick="conversionDownload();">Baixar agora</button>
                             </form>
-                        @endif
+
                 </div>        
             </div>
     </div>
 </div>
+
+@push('scripts')
+<script>
+    function conversionDownload(){
+        gtag('event', 'conversion', {'send_to': 'AW-792215321/tHU_CNqalJYBEJn-4PkC'});
+    }
+</script>
+@endpush

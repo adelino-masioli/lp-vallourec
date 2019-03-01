@@ -52,6 +52,28 @@
     <script src="{{asset('site/js/respond.min.js')}}"></script>
     <![endif]-->
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-135406050-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-135406050-1');
+</script>
+
+
+<!-- Global site tag (gtag.js) - Google Ads: 792215321 -->
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-792215321"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'AW-792215321');
+</script>
+
+
 </head>
 <body>
   
@@ -61,26 +83,7 @@
         <a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
     </div>
 
-    <!-- Código do Google para tag de remarketing -->
-    <!--------------------------------------------------
-    As tags de remarketing não podem ser associadas a informações pessoais de identificação nem inseridas em páginas relacionadas a categorias de confidencialidade. Veja mais informações e instruções sobre como configurar a tag em: http://google.com/ads/remarketingsetup
-    --------------------------------------------------->
-    <script type="text/javascript">
-        /* <![CDATA[ */
-        var google_conversion_id = 856107660;
-        var google_custom_params = window.google_tag_params;
-        var google_remarketing_only = true;
-        /* ]]> */
-    </script>
 
-    <script type="text/javascript" src="https://www.googleadservices.com/pagead/conversion.js">
-    </script>
-
-    <noscript>
-        <div style="display:inline;">
-            <img height="1" width="1" style="border-style:none;" alt="" src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/856107660/?guid=ON&amp;script=0"/>
-        </div>
-    </noscript>
 
     <!-- jQuery -->
     <script src="{{asset('site/js/jquery.min.js')}}"></script>
@@ -133,6 +136,7 @@
                 });
             }
         }
+
     </script>
 
 

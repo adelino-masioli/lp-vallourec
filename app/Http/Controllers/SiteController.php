@@ -33,12 +33,18 @@ class SiteController extends Controller
 
     public function downloadEbookSuccess()
     {
-        return view('site.download');
+        return view('site.download-success');
     }
 
     public function downloadEbookPdf()
     {
-        return response()->download('./download/vallourec-e-book.pdf', "Vallourec E-book");
+        $pathToFile = public_path("download/vallourec-e-book.pdf");
+        $name = 'vallourec-e-book.pdf';
+        $headers = ['Content-Type: application/pdf'];
+
+
+
+        return response()->download($pathToFile, $name, $headers);
     }
 
 

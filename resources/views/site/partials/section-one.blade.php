@@ -4,7 +4,7 @@
 			<div class="row">
 				<div class="col-xs-12 col-md-6 text-center fh5co-heading">
 					<h1 class="h1-title animate-box">
-                        TECNOLOGIA A SERVIÇO <br/>
+                        TECNOLOGIA  A SERVIÇO <br/>
                         DA PRODUTIVIDADE
                     </h1>
 
