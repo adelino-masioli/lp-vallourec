@@ -1,9 +1,10 @@
 <!DOCTYPE HTML>
 <html>
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Vallourec</title>
+    <title>EIXO FERROVIÁRIO TUBULAR / Rail axle</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Sicoob" />
     <meta name="keywords" content="Sicoob, Sicoobcard, Sicoob Consórcios" />
@@ -11,11 +12,11 @@
     <link rel="icon" href="{{asset('site/images/favicon.png')}}">
 
     <!-- Facebook and Twitter integration -->
-    <meta property="og:title" content=""/>
-    <meta property="og:image" content=""/>
-    <meta property="og:url" content=""/>
-    <meta property="og:site_name" content=""/>
-    <meta property="og:description" content=""/>
+    <meta property="og:title" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:site_name" content="" />
+    <meta property="og:description" content="" />
     <meta name="twitter:title" content="" />
     <meta name="twitter:image" content="" />
     <meta name="twitter:url" content="" />
@@ -23,7 +24,7 @@
 
     <link href="https://fonts.googleapis.com/css?family=Asap+Condensed:400,500,600,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
-    
+
 
     <!-- Animate.css -->
     <link rel="stylesheet" href="{{asset('site/css/animate.css')}}">
@@ -54,29 +55,30 @@
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-135406050-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135406050-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', 'UA-135406050-1');
-</script>
+    </script>
 
 
-<!-- Global site tag (gtag.js) - Google Ads: 792215321 -->
+    <!-- Global site tag (gtag.js) - Google Ads: 792215321 -->
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-792215321"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-792215321"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', 'AW-792215321');
-</script>
+    </script>
 
 
 </head>
+
 <body>
-  
+
     @yield('content')
 
     <div class="gototop js-top">
@@ -141,4 +143,5 @@
 
 
 </body>
+
 </html>
