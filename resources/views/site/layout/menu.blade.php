@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-xs-12 text-center col-menu-lg">
                     <div id="fh5co-logo">
-                        <a href="{{url('/')}}" title="Vallourec">Rail axle</a>
+                        <a href="{{url('/')}}" title="Vallourec">Rail &nbsp;axle</a>
                     </div>
                     <ul class="pull-right menumobileul">
                         <li><a class="menutop menudownloadebook" href="javascript:void(0);"

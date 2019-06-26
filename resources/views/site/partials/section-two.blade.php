@@ -8,9 +8,8 @@
                     alt="Vallourec E-book">
             </div>
             <div class="col-xs-12 col-sm-12 col-md-6 section-two-col-right">
-                <h1 class="show-lg">DOWNLOAD THE E-BOOK AND KNOW <br />
-                    HOW TO REDUCE COSTS IN <br />
-                    RAIL TRANSPORT.
+                <h1 class="show-lg">DOWNLOAD THE E-BOOK AND KNOW
+                    HOW TO REDUCE COSTS IN RAIL TRANSPORT.
                 </h1>
                 <h1 class="show-mobile">DOWNLOAD THE E-BOOK AND KNOW
                     HOW TO REDUCE COSTS IN
@@ -21,7 +20,7 @@
                     A Vallourec elaborou um e-book com informações completas sobre o projeto técnico e testes de
                     desenvolvimento.
                 </p>
-                <a href="{{url('baixe-o-e-book')}}" class="btn btn-blue">Download free</a>
+                <a href="{{url('baixe-o-e-book')}}" class="btn btn-blue">Download &nbsp;free</a>
             </div>
         </div>
     </div>
